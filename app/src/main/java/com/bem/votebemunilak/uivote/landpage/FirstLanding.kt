@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import com.bem.votebemunilak.R
 
 
-class first_landing : Fragment() {
-
+class FirstLanding : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,7 +16,6 @@ class first_landing : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
     }
 
     override fun onCreateView(
