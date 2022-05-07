@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950533431937",
+    "project_id": "votebemunilak",
+    "storage_bucket": "votebemunilak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950533431937:android:a614d5dff2b674781c2380",
+        "android_client_info": {
+          "package_name": "com.bem.votebemunilak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950533431937-3grkrt66pjhoq507qj1bqi36fubt84mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOk3iGuiRQcsNyKs1bovFwpmOHFiiYYTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950533431937-3grkrt66pjhoq507qj1bqi36fubt84mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VoteBemUnilak</string>
+    <string name="masukkan_nama">Masukkan nama</string>
+    <string name="masukkan_email">Masukkan email</string>
+    <string name="save">Save</string>
+    <string name="votebemunilak">VoteBem Unilak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
