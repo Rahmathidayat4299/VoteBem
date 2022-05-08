@@ -1,7 +1,8 @@
-package com.bem.votebemunilak
+package com.bem.votebemunilak.uivote
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bem.votebemunilak.R
 
 
 class MainActivity : AppCompatActivity() {

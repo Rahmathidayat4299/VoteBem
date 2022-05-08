@@ -1,4 +1,4 @@
-package com.bem.votebemunilak.uivote.landpage
+package com.bem.votebemunilak.uivote.cadangan
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFF33"
-    tools:context=".uivote.SplashVote">
+    tools:context=".uivote.cadangan.SplashVote">
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/ivSplash"

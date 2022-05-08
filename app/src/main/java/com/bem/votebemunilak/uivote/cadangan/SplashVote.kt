@@ -1,12 +1,12 @@
-package com.bem.votebemunilak.uivote
+package com.bem.votebemunilak.uivote.cadangan
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import com.bem.votebemunilak.MainActivity
 import com.bem.votebemunilak.databinding.ActivitySplashVoteBinding
+import com.bem.votebemunilak.uivote.MainActivity
 
 
 class SplashVote : AppCompatActivity() {

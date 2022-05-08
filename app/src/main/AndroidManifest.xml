@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VoteBemUnilak">
         <activity
-            android:name=".uivote.landpage.LandingActivity"
+            android:name=".uivote.cadangan.LandingActivity"
             android:exported="false" />
         <activity
-            android:name=".uivote.SplashVote"
+            android:name=".uivote.cadangan.SplashVote"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".uivote.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

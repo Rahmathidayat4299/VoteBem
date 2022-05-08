@@ -5,36 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_500"
-    tools:context=".uivote.landpage.FirstLanding">
+    tools:context=".uivote.landpage.SecondFragment">
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/viewSecond"
         style="@style/view_landingpage"
         android:background="@drawable/shape_landing_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guideline"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintTop_toTopOf="@+id/guidline"
+        app:layout_constraintVertical_bias="0.193" />
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/textView"
         style="@style/lottie_style"
-        app:layout_constraintBottom_toBottomOf="@id/view"
-        app:layout_constraintEnd_toEndOf="@id/view"
-        app:layout_constraintStart_toStartOf="@id/view"
-        app:layout_constraintTop_toTopOf="@id/view"
+        app:layout_constraintBottom_toBottomOf="@+id/viewSecond"
+        app:layout_constraintEnd_toEndOf="@+id/viewSecond"
+        app:layout_constraintStart_toStartOf="@+id/viewSecond"
+        app:layout_constraintTop_toTopOf="@+id/viewSecond"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/mobile_vote" />
+        app:lottie_rawRes="@raw/box_vote" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
+        android:id="@+id/guidline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.05" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

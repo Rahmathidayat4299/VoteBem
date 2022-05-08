@@ -11,13 +11,18 @@
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen" >
         <action
-            android:id="@+id/action_splashScreen_to_firstLanding"
-            app:destination="@id/firstLanding" />
+            android:id="@+id/action_splashScreen_to_viewpagerFragment"
+            app:destination="@id/viewpagerFragment" />
     </fragment>
-
     <fragment
-        android:id="@+id/firstLanding"
-        android:name="com.bem.votebemunilak.uivote.landpage.FirstLanding"
-        android:label="fragment_first_landing"
-        tools:layout="@layout/fragment_first_landing" />
+        android:id="@+id/viewpagerFragment"
+        android:name="com.bem.votebemunilak.uivote.landpage.ViewPagerFragment"
+        android:label="fragment_viewpager"
+        tools:layout="@layout/fragment_viewpager" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.bem.votebemunilak.uivote.landpage.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+
 </navigation>
